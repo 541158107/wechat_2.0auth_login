@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "WeChatManager.h"
 #import "HttpManager.h"
+#import "LoginAndCodeVC.h"
 
 @interface AnimationDelegate : NSObject  <CAAnimationDelegate>
 
@@ -58,6 +59,8 @@
     [WeChatManager sharedManager].delegate = self;
     [_wexinBtn addTarget:self action:@selector(wechatLogin:) forControlEvents:UIControlEventTouchUpInside];
     [_logoutBtn addTarget:self action:@selector(wechatLogout:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [_phoneBtn addTarget:self action:@selector(loginClick:) forControlEvents:UIControlEventTouchUpInside];
     
     // 启动页到视频播放过渡
     CALayer *backLayer = [CALayer layer];
@@ -124,8 +127,6 @@
         self.avatarImage.alpha = 0.0;
         self.detailLabel.alpha = 0.0;
         self.logoutBtn.alpha = 0.0;
-        self.phoneBtn.enabled = NO;
-        self.touristBtn.enabled = NO;
         [UIView animateWithDuration:5.7 animations:^{
             self.phoneBtn.alpha = 1.0;
             self.wexinBtn.alpha = 1.0;
@@ -196,6 +197,13 @@
     self.scaleAnimation.delegate = nil;
     self.scaleAnimation = nil;
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+#pragma mark - 登录
+- (void)loginClick:(id)sender {
+    LoginAndCodeVC *vc = [LoginAndCodeVC initLoginAndCodeVC];
+    vc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 #pragma mark - 微信登录

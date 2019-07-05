@@ -15,6 +15,7 @@
 		68325D8E22CB28F800065B34 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68325D8622CB28F700065B34 /* AFNetworkReachabilityManager.m */; };
 		68325D8F22CB28F800065B34 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68325D8722CB28F700065B34 /* AFSecurityPolicy.m */; };
 		68325D9222CB2B3E00065B34 /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68325D9122CB2B3D00065B34 /* HttpManager.m */; };
+		683BA0AA22CEEC310046033B /* WJ_CodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 683BA0A922CEEC310046033B /* WJ_CodeInputView.m */; };
 		6860D05522C9E38E0094A04E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6860D05222C9E38E0094A04E /* README.txt */; };
 		6860D05622C9E38E0094A04E /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6860D05422C9E38E0094A04E /* libWeChatSDK.a */; };
 		6860D05922C9E4260094A04E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6860D05822C9E4260094A04E /* SystemConfiguration.framework */; };
@@ -26,6 +27,8 @@
 		6860D06622C9E4B10094A04E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6860D06522C9E4B10094A04E /* CFNetwork.framework */; };
 		6860D06822C9E4BD0094A04E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6860D06722C9E4BD0094A04E /* CoreGraphics.framework */; };
 		6860D06B22C9E9770094A04E /* WeChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860D06A22C9E9770094A04E /* WeChatManager.m */; };
+		6867DF0822CD99D30050AE0D /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6867DF0722CD99D30050AE0D /* login.storyboard */; };
+		68D6AAA122CDDDD100251491 /* LoginAndCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D6AAA022CDDDD100251491 /* LoginAndCodeVC.m */; };
 		68E588C322C9A22400BE4651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E588C222C9A22400BE4651 /* AppDelegate.m */; };
 		68E588C622C9A22400BE4651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E588C522C9A22400BE4651 /* ViewController.m */; };
 		68E588C922C9A22400BE4651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E588C722C9A22400BE4651 /* Main.storyboard */; };
@@ -64,6 +67,8 @@
 		68325D8922CB28F700065B34 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		68325D9022CB2B3D00065B34 /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
 		68325D9122CB2B3D00065B34 /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		683BA0A822CEEC310046033B /* WJ_CodeInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJ_CodeInputView.h; sourceTree = "<group>"; };
+		683BA0A922CEEC310046033B /* WJ_CodeInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJ_CodeInputView.m; sourceTree = "<group>"; };
 		6860D05022C9E38E0094A04E /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		6860D05122C9E38E0094A04E /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		6860D05222C9E38E0094A04E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
@@ -79,6 +84,9 @@
 		6860D06722C9E4BD0094A04E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6860D06922C9E9770094A04E /* WeChatManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatManager.h; sourceTree = "<group>"; };
 		6860D06A22C9E9770094A04E /* WeChatManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatManager.m; sourceTree = "<group>"; };
+		6867DF0722CD99D30050AE0D /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		68D6AA9F22CDDDD100251491 /* LoginAndCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAndCodeVC.h; sourceTree = "<group>"; };
+		68D6AAA022CDDDD100251491 /* LoginAndCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAndCodeVC.m; sourceTree = "<group>"; };
 		68E588BE22C9A22400BE4651 /* loginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E588C122C9A22400BE4651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68E588C222C9A22400BE4651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,6 +151,15 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		683BA0A422CEE7460046033B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				683BA0A822CEEC310046033B /* WJ_CodeInputView.h */,
+				683BA0A922CEEC310046033B /* WJ_CodeInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6860D04F22C9E38E0094A04E /* WeChatSDK1.8.4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +189,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6867DF0522CD99610050AE0D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6867DF0722CD99D30050AE0D /* login.storyboard */,
+				6867DF0622CD99860050AE0D /* Controller */,
+				683BA0A422CEE7460046033B /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6867DF0622CD99860050AE0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68D6AA9F22CDDDD100251491 /* LoginAndCodeVC.h */,
+				68D6AAA022CDDDD100251491 /* LoginAndCodeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		68E588B522C9A22400BE4651 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +230,9 @@
 		68E588C022C9A22400BE4651 /* loginDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6860D04F22C9E38E0094A04E /* WeChatSDK1.8.4 */,
+				68325D7B22CB28F700065B34 /* AFNetworking */,
+				6867DF0522CD99610050AE0D /* Login */,
 				68E588C122C9A22400BE4651 /* AppDelegate.h */,
 				68E588C222C9A22400BE4651 /* AppDelegate.m */,
 				68E588C422C9A22400BE4651 /* ViewController.h */,
@@ -207,8 +246,6 @@
 				68E588CC22C9A22600BE4651 /* LaunchScreen.storyboard */,
 				68E588CF22C9A22600BE4651 /* Info.plist */,
 				68E588D022C9A22600BE4651 /* main.m */,
-				6860D04F22C9E38E0094A04E /* WeChatSDK1.8.4 */,
-				68325D7B22CB28F700065B34 /* AFNetworking */,
 			);
 			path = loginDemo;
 			sourceTree = "<group>";
@@ -308,6 +345,7 @@
 				6805903A22CB504500520D1C /* LaunchImage.png in Resources */,
 				68E588E622C9AC7300BE4651 /* QidongVideo.mp4 in Resources */,
 				6860D05522C9E38E0094A04E /* README.txt in Resources */,
+				6867DF0822CD99D30050AE0D /* login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +366,7 @@
 				68E588C622C9A22400BE4651 /* ViewController.m in Sources */,
 				68325D8E22CB28F800065B34 /* AFNetworkReachabilityManager.m in Sources */,
 				6860D06B22C9E9770094A04E /* WeChatManager.m in Sources */,
+				683BA0AA22CEEC310046033B /* WJ_CodeInputView.m in Sources */,
 				68E588D122C9A22600BE4651 /* main.m in Sources */,
 				68325D8C22CB28F800065B34 /* AFURLSessionManager.m in Sources */,
 				68325D8B22CB28F800065B34 /* AFHTTPSessionManager.m in Sources */,
@@ -336,6 +375,7 @@
 				68E588C322C9A22400BE4651 /* AppDelegate.m in Sources */,
 				68325D8A22CB28F800065B34 /* AFURLResponseSerialization.m in Sources */,
 				68325D8D22CB28F800065B34 /* AFURLRequestSerialization.m in Sources */,
+				68D6AAA122CDDDD100251491 /* LoginAndCodeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
